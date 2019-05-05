@@ -1,0 +1,21 @@
+ul.container {
+    background: #ddd;
+    box-shadow: 0 0 4px 2px #00000054;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        color: #000;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        display: block;
+        font-weight: bold;
+        
+        &:hover, &.active {
+            background: #9393937d;
+        }
+    }    
+}
+
+header {
+    margin:15px;
+}
